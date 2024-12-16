@@ -84,7 +84,7 @@ const Homepage = () => {
   return (
     <div className="flex flex-col justify-center items-center py-12">
       <div className="flex flex-col justify-center items-center">
-        <h1 className="flex items-center no-underline text-[#27622c] text-7xl sm:text-3xl font-bold text-center">
+        <h1 className="flex items-center no-underline text-[#27622c] text-7xl sm:text-xl font-bold text-center">
           PRODUCTS
         </h1>
 
