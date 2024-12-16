@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "backend": "nodemon server.js",
     "tailwind": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "watch": "npm-run-all --parallel tailwind dev backend"
+    "watch": "concurrently \"npm:tailwind\" \"npm:dev\" \"npm:backend\""
   },
   "dependencies": {
     "@emotion/react": "^11.13.5",
@@ -30,6 +30,7 @@
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.20",
+    "concurrently": "^9.1.0",
     "eslint": "^9.15.0",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",

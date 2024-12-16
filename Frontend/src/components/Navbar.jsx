@@ -4,15 +4,16 @@ import { GiMaterialsScience } from "react-icons/gi";
 import "./../index.css";
 
 const Navbar = () => {
-  
   return (
     <nav className="px-4 min-w-screen shadow-lg shadow-b-2 bg-white">
-      <div className="flex h-16 items-center justify-between flex-col sm:flex-row">
+      <div className="flex h-16 items-center justify-between flex-row">
         {/* Logo Text with Link to Main Page */}
         <Link to="/">
-          <h1 className="flex items-center no-underline text-[#27622c] text-2xl sm:text-3xl font-bold text-center">
-            CryoTech <GiMaterialsScience />
-          </h1>
+          <div>
+            <h1 className="flex items-center no-underline text-[#27622c] text-2xl sm:text-3xl font-bold text-center">
+              CryoTech <GiMaterialsScience />
+            </h1>
+          </div>
         </Link>
 
         <div className="flex space-x-2 items-center">

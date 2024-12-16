@@ -42,7 +42,7 @@ const CreatePage = () => {
     // Body of the Page
     <div className="flex justify-center">
       {/* Fields Container */}
-      <div className="w-full max-w-sm mt-12 p-6 rounded-lg shadow-md">
+      <div className="w-full max-w-sm mt-12 p-6">
         <div className="w-full p-6">
           {/* Header */}
           <h1 className="mb-8 text-center font-bold text-xl text-gray-900">
